@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -249,8 +250,8 @@ header {
   color: white;
   font-size: 17px;
   opacity: 1;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .nav-link:hover {
@@ -335,6 +336,83 @@ footer {
   background: #2a2a2a;
   width: 100%;
   height: 50px;
+}
+
+/* página Music */
+#music {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+  color: white;
+  width: 80%;
+  height: 500px;
+  background: black;
+}
+
+.scroll-y {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.scroll-y h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 40px;
+  background: #4b0c0c;
+}
+
+.red {
+  position: fixed;
+  top: 60px;
+  width: 40%;
+  height: 40px;
+  background: #3c0d0d;
+}
+
+.lol {
+  width: 80%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 80px 20px;
+  margin-top: 60px;
+}
+
+iframe {
+  padding: 10px;
+  border: 1px solid #3c0d0d;
+}
+
+footer.footer-music {
+  background: black;
 }
 
 @media (max-width: 1600px) {
@@ -455,8 +533,8 @@ footer {
     display: block;
     font-size: 13px;
     opacity: 1;
-    -webkit-transition: .7s ease;
-    transition: .7s ease;
+    -webkit-transition: 0.7s ease;
+    transition: 0.7s ease;
   }
   .links:hover {
     opacity: 0.7;
