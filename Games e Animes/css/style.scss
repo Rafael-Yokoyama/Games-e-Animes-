@@ -8,6 +8,7 @@ $preto: #121212;
 }
 
 body {
+  font-family: "Special Elite", monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,114 +262,223 @@ footer {
   height: 50px;
 }
 
+/* página Animes*/
+
+body#anime {
+  display: inline;
+}
+
+#conteudo-top {
+  width: 100%;
+  height: 700px;
+  background: red url("../img/tim-mossholder-tq8Cuap8_wY-unsplash.jpg");
+  background-size: cover;
+  background-attachment: center;
+}
+
+.scroll-animation .mouse {
+  color:white;
+  cursor: pointer;
+  left: 50%;
+  position: absolute;
+  display: block;
+  bottom: 90px;
+  width: 35px;
+  height: 55px;
+
+  border: 3px solid white;
+  border-radius: 23px;
+}
+.scroll-animation .mouse div.mouse-wheel {
+  color:white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 7px;
+  margin: -6px 0 0 -2px;
+  background: white;
+  border-radius: 150px;
+  animation: mouse 2s linear infinite;
+}
+@keyframes mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  20% {
+    opacity: 1;
+    top: 50%;
+  }
+  60% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+#conteudo-top {
+  display: flex;
+  justify-content: center;
+}
+
+/* máquina de escrever */
+.line {
+  position: absolute;
+  top: 45%;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Special Elite", monospace;
+  font-size: 6em;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typing-animation {
+  animation: typing 4s steps(20) 4s normal;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+
+#conteudo-animes {
+  width: 100%;
+  height: 100vh;
+  background: $cinza;
+  
+}
+.aaa {
+  background:black;
+color:white;
+  width:70%;
+  
+  display:flex;
+ text-align:center;
+ align-items:center;
+ justify-content: center;
+ flex-direction:column;
+  margin:0px auto  ;
+  
+ 
+}
+.aaa h3 {
+  position:relative;
+
+  font-size:30px;
+}
+.aaa p {
+  margin-bottom:150px;
+}
+
+footer.footer-anime{
+
+  background: black;
+
+}
+
 /* página Music */
 
+#music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 
-
-#music{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-top:80px ;
-    margin-bottom:80px ;
-  
-    color:white;
-    width:80%;
-    height:500px;
-    background:black;
-   
+  color: white;
+  width: 80%;
+  height: 500px;
+  background: black;
 }
-.scroll-y{
-    display:flex;
-   height: 100vh;
-    overflow-y: scroll;
+.scroll-y {
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
-.scroll-y h1{
-    width:100%;
-  
-    text-align: center;
-    color:white;
+.scroll-y h1 {
+  width: 100%;
 
+  text-align: center;
+  color: white;
 }
 .scroll-y h3 {
   text-transform: uppercase;
-  
-  padding:20px;
 
+  padding: 20px;
 }
-.container{
-    display:flex;
-    position: fixed;
-    top:0;
-    width:80%;
-    height:40px;
-    background:#4b0c0c;
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 40px;
+  background: #4b0c0c;
 }
-.red{
- display:flex;
-   top:90px;
-    width:50%;
-    height:40px;
-    background:#3c0d0d;
-
+.red {
+  display: flex;
+  top: 90px;
+  width: 50%;
+  height: 40px;
+  background: #3c0d0d;
 }
-.lol{
-    
-    width:80%;
-    height: 100vh;
-    align-items:center;
-    display: flex;
-    flex-direction: column;
-   padding:80px 20px;
-   margin-top:60px;
-  
-   
-    
+.lol {
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px;
+  margin-top: 60px;
 }
 
-iframe{
-
-    margin:4px;
-    border: 1px solid #3c0d0d;  
-
+iframe {
+  margin: 4px;
+  border: 1px solid #3c0d0d;
 }
 
- footer.footer-music {
-
-    background:black;
- }
- 
-
-
-
-
-
-
-
-
+footer.footer-music {
+  background: black;
+}
 
 @media (max-width: 1600px) {
   .itens-mobile {
     display: none;
   }
 
-  .red{
+  .red {
     width: 80%;
   }
- 
-  aside{
+
+  aside {
     padding-bottom: 20px;
+  }
+
+  .line {
+    position: absolute;
+    top: 35%;
   }
 }
 
 @media (max-width: 722px and 1100px) {
-  iframe{
+  .scroll-animation {
+    display: none;
+  }
+  iframe {
     width: 100%;
   }
-
 }
-
 
 @media (max-width: 720px) {
   .header-contaner {
@@ -488,31 +598,37 @@ iframe{
     width: 300px;
   }
 
-  
-.scroll-y h1{
-    width:100%;
-    
-  font-size: 18px;;
+  .scroll-y h1 {
+    width: 100%;
+
+    font-size: 18px;
     text-align: center;
-    color:white;
+    color: white;
+  }
+  .red {
+    margin-top: 60px;
+    height: 64px;
+  }
 
-}
-.red{
-  
-margin-top:60px;
-  height:64px;
-}
+  iframe {
+    display: flex;
 
+    justify-content: center;
+    flex-direction: row;
 
+    width: 100%;
+    height: 90px;
+  }
 
-iframe{
-  display:flex;
- 
-  justify-content:center;
-  flex-direction: row;
-
- 
-  width: 100%;
-  height: 90px;
-}
+  .line {
+    position: absolute;
+    top: 30%;
+    font-size: 3rem;
+  }
+  footer{
+    font-size:13px;
+  }
+  #conteudo-animes img {
+    width:200px;
+  }
 }
