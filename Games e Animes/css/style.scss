@@ -262,6 +262,18 @@ footer {
   height: 50px;
 }
 
+/* página novidades */
+#novidades{
+  margin-top:40px;
+  position:relative;
+  background:black;
+  width:100%;
+  height:300px;
+  color:white;
+}
+
+
+
 /* página Animes*/
 
 body#anime {
@@ -271,7 +283,7 @@ body#anime {
 #conteudo-top {
   width: 100%;
   height: 700px;
-  background: red url("../img/tim-mossholder-tq8Cuap8_wY-unsplash.jpg");
+  background: $preto  url("../img/tim-mossholder-tq8Cuap8_wY-unsplash.jpg");
   background-size: cover;
   background-attachment: center;
 }
