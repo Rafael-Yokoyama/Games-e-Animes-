@@ -341,12 +341,110 @@ footer {
 
 /* página novidades */
 #novidades {
-  margin-top: 40px;
-  position: relative;
   background: black;
   width: 100%;
-  height: 300px;
+  height: 100%;
+  padding-bottom: 150px;
+}
+
+#novidades .conteudo {
+  width: 70%;
+  padding-top: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
+}
+
+#novidades h2 {
+  font-size: 18px;
+  padding-top: 10px;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+}
+
+#novidades .span {
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  width: 70%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.img-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 70%;
+  color: white;
+}
+
+.img-top img {
+  border-radius: 20px;
+}
+
+.conteudo-novidades {
+  opacity: 0.8;
+}
+
+.conteudo-novidades:hover {
+  opacity: 1;
+}
+
+#novidades ul {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#novidades li {
+  height: 170px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2px;
+}
+
+#novidades li a img {
+  float: left;
+  margin: 5px;
+}
+
+#novidades li a h3 {
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+}
+
+#novidades li a p {
+  color: white;
+  padding-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+#novidades li a span {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#novidades .list-noticia {
+  padding-top: 20px;
+}
+
+#novidades .list-noticia:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /* página Animes*/
@@ -781,6 +879,19 @@ footer.footer-music {
   }
   #conteudo-animes img {
     width: 200px;
+  }
+  #novidades.list-noticia {
+    text-align: center;
+  }
+  #novidades ul {
+    margin: 0 auto;
+    width: 65%;
+    clear: both;
+  }
+  #novidades li {
+    height: 280px;
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
 /*# sourceMappingURL=style.css.map */
