@@ -197,6 +197,36 @@ header {
   display: none;
 }
 
+
+/* index*/
+.nav-item {
+  color:#F50057;
+}
+.carrosel-filmes h2{
+  color:white;
+ padding:20px 0 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.box-filme{
+  
+  width: 100%;
+  height: 40%;
+  display: block;
+}
+.carrosel-filmes{
+  cursor:pointer;
+      width: 80%;
+      padding-top:100px ;
+    padding-bottom:100px ;
+}
+
+.img-index{
+  padding-top:20px;
+}
+
 /* Perguntas Frequentes */
 
 body#pesquisa-pag {
@@ -390,7 +420,7 @@ body#anime {
 #conteudo-top {
   width: 100%;
   height: 700px;
-  background: $preto  url("../img/tim-mossholder-tq8Cuap8_wY-unsplash.jpg");
+  background: $preto  url("../img/backgroundgames.jpg");
   background-size: cover;
   background-attachment: center;
 }
