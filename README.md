@@ -11,7 +11,7 @@ Site de games e animes desenvolvido para treinar animações css
 
 
 ## Antevisão 💻📱
-![](https://github.com/Rafael-Yokoyama/Games-e-Animes-/blob/main/Games%20e%20Animes/img/CapturaIndex.PNG)
+![](https://github.com/Rafael-Yokoyama/Games-e-Animes-/blob/main/img/CapturaIndex.PNG)
 
 
 
@@ -22,8 +22,14 @@ Site de games e animes desenvolvido para treinar animações css
 
 
  
+   Conheça o site <a href="https://games-e-animes.netlify.app/" > Clique aqui  </a> 
+ 
 
 ## Licença 📝 
   Este projeto está sob a licença MIT.CLique <a href=https://github.com/Rafael-Yokoyama/Games-e-Animes-/blob/main/LICENSE> aqui </a> para saber mais 
   
   Este projeto foi desenvolvido com 🖤por  <a href="https://github.com/Rafael-Yokoyama"> @RafaelYokoyama </a> 
+  
+
+
+  
